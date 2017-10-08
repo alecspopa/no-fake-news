@@ -17,13 +17,29 @@
         display: flex;
         justify-content: space-between;
       }
+
+      #logo {
+        width: 16px;
+        height: 16px;
+        background-image: url(images/logo_blue_128.png);
+        background-size: 100% 100%;
+        float: left;
+      }
+
+      #title {
+        padding-left: 20px;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #ddd;
+      }
     </style>
   </head>
 
   <body>
-    <h1>No Fake News</h1>
+    <div id="logo">&nbsp;</div>
+    <h1 id="title">No Fake News</h1>
     <div id="container">
-      <p>some description should come here</p>
+      <p><strong>News publisher ranking</strong><br/> Open your Facebook page and see the publishers ranked in the feed.</p>
     </div>
   </body>
 </html>

@@ -16,11 +16,13 @@
   background-color: #90949c;
 }
 
-.no-fake-news.trusted {
+.no-fake-news.trusted,
+.no-fake-news.humor {
   color: #43b62c;
 }
 
-.no-fake-news.trusted::before {
+.no-fake-news.trusted::before,
+.no-fake-news.humor::before {
 	background-color: #43b62c;
 }
 
